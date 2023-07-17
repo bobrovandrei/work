@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img/1.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+header {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  /* color: transparent;
+  background: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff; */
+}
+
+h2 {
+  color: white;
+}
+
+.info {
+  margin-left: auto;
+}
+
+.info ul {
+  display: flex;
+  gap: 30px;
+}
+
+.info ul li {
+  list-style-type: none;
+}
