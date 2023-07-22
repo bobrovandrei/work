@@ -217,6 +217,7 @@ section li {
 }
 
 .dropdown-menu h1 {
+  margin-top: 10px;
   text-transform: none;
 }
 section ol {
